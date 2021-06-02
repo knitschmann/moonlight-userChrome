@@ -9,8 +9,9 @@
 }
 
 #TabsToolbar {
-    margin-top: -1px !important;
-    padding-bottom: 1px !important;
+    margin-top: -7px !important;
+    margin-bottom: -5px !important;
+    padding-bottom: 0px !important;
 }
 
 #toolbar-menubar {
@@ -19,16 +20,15 @@
 
 .tabbrowser-tab .tab-stack {
     background: var(--moonlight-gray-2) !important;
-    /*border: 1px solid var(--moonlight-gray-1) !important;*/
     border: none !important;
     margin: 2px 4px 2px 2px !important;
     border-radius: 3px !important;
     color: var(--moonlight-gray-10) !important;
-    transition: background-color, border-color 100ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+    transition: background-color, border-color 200ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 .tabbrowser-tab .tab-background {
     border: none !important;
-    transition: background-color, border-color 100ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+    transition: background-color, border-color 200ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 .tabbrowser-tab::after {
     border: none !important;
@@ -36,14 +36,12 @@
 }
 .tabbrowser-tab:hover .tab-stack{
     border: none !important;
-    /*border-color: var(--moonlight-blue) !important;*/
 }
 .tabbrowser-tab:hover .tab-background {
     border: none !important;
     background: var(--moonlight-gray-5) !important;
 }
 .tabbrowser-tab[selected] .tab-stack {
-    /*border-color: var(--moonlight-gray-6) !important;*/
     border: none !important;
     color: var(--moonlight-gray-10) !important;
 }

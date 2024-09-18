@@ -62,6 +62,9 @@
     fill: var(--moonlight-gray-10) !important;
     background-color: transparent !important;
 }
+#tabbrowser-tabs{
+  border-inline-start: none !important;
+}
 #tabs-newtab-button .toolbarbutton-icon {
     width: calc(2 * var(--toolbarbutton-inner-padding) + 12px) !important;
     height: calc(2 * var(--toolbarbutton-inner-padding) + 12px) !important;

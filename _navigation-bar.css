@@ -63,6 +63,10 @@
 }
 /* --- */
 
+:root:not([customizing="true"]) #nav-bar:not([inFullscreen]) {
+    padding-right: 120px !important;
+}
+
 /* - Url bar - */
 #urlbar-input {
     color: var(--moonlight-gray-10) !important;
